@@ -1,0 +1,41 @@
+/* common styles */
+body{
+    font-family: 'Lato', sans-serif;
+}
+/* header related styles */
+.header{
+    background: rgba(229, 84, 115, 0.10);
+}
+/* banner related styles */
+.banner{
+    padding: 30px 100px 0px 200px;
+    display: flex;
+    align-items: center;
+}
+.b-contend{
+    
+}
+.banner-title{
+    color: #272727;
+font-size: 67px;
+font-weight: 800;
+margin-bottom: 0px;
+}
+.banner-description{
+    color: rgba(39, 39, 39, 0.60);
+font-size: 18px;
+font-weight: 400;
+margin-bottom: 30px;
+margin-top: 30px;
+}
+.btn-primary{
+    color: #FFFFFF;
+    border-radius: 8px;
+background: #E55473;
+border: 0px;
+padding: 20px 40px;
+}
+.banner .profile-pic{
+    width: 550px;
+    margin-left: 120px;
+}
