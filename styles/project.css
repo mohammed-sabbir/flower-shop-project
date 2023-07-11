@@ -1,41 +1,94 @@
 /* common styles */
-body{
+body {
     font-family: 'Lato', sans-serif;
 }
+
 /* header related styles */
-.header{
+.header {
     background: rgba(229, 84, 115, 0.10);
 }
+
 /* banner related styles */
-.banner{
+.banner {
     padding: 30px 100px 0px 200px;
     display: flex;
     align-items: center;
 }
-.b-contend{
-    
-}
-.banner-title{
+
+/* .b-contend {} */
+
+.banner-title {
     color: #272727;
-font-size: 67px;
-font-weight: 800;
-margin-bottom: 0px;
+    font-size: 67px;
+    font-weight: 800;
+    margin-bottom: 0px;
 }
-.banner-description{
+
+.banner-description {
     color: rgba(39, 39, 39, 0.60);
-font-size: 18px;
-font-weight: 400;
-margin-bottom: 30px;
-margin-top: 30px;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 30px;
+    margin-top: 30px;
 }
-.btn-primary{
+
+.btn-primary {
     color: #FFFFFF;
     border-radius: 8px;
-background: #E55473;
-border: 0px;
-padding: 20px 40px;
+    background: #E55473;
+    border: 0px;
+    padding: 20px 40px;
 }
-.banner .profile-pic{
+
+.banner .profile-pic {
     width: 550px;
     margin-left: 120px;
+}
+
+/* main related styles */
+.f-about {
+    max-width: 500px;
+    margin: auto;
+}
+
+.f-about-title {
+    color: #272727;
+    font-size: 30px;
+    font-weight: 800;
+    margin-left: 80px;
+    margin-top: 170px;
+    margin-bottom: 0px;
+}
+
+.f-about-details {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 20px;
+    margin-bottom: 45px;
+}
+
+/* img related styles */
+.img-store {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+}
+
+.img-a {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+    padding: 170px 70px 0px;
+}
+
+.img-b {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+    padding: 170px 70px 0px;
+}
+
+.img-c {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+    padding: 170px 70px 0px;
 }
