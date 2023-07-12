@@ -45,7 +45,7 @@ body {
 
 /* main related styles */
 main {
-    max-width: 100%;
+    max-width: 1920px;
 }
 
 .about {
@@ -110,35 +110,6 @@ main {
     text-decoration-line: underline;
 }
 
-/* extra option related styles */
-.extra-option-container {
-    width: 72%;
-    display: flex;
-    border-radius: 5px;
-    background: rgba(47, 22, 22, 0.108);
-    gap: 100px;
-    margin: 0px auto;
-    justify-content: center;
-    margin-top: 120px;
-}
-
-.extra-option {
-    padding: 70px 30px;
-    padding-bottom: 30px;
-}
-
-.option-details {
-    color: rgba(39, 39, 39, 0.80);
-    text-align: center;
-    font-size: 16px;
-    font-weight: 600;
-    line-height: 35px;
-}
-
-.option-image {
-    width: 55px;
-}
-
 .offer-part {
     display: flex;
     border-radius: 8px;
@@ -178,10 +149,171 @@ span {
     border: 0px;
     padding: 17px 33px;
 }
-.btn-o{
-    padding-left:35%;
+
+.btn-o {
+    padding-left: 35%;
 }
 
-.offer-img-{
-    width: 230px;
+.offer-img {
+    width: 260px;
+}
+
+.about-shop {
+    max-width: 400px;
+    margin: 0px auto;
+}
+
+.shop-title {
+    color: #272727;
+    font-size: 30px;
+    font-weight: 800;
+    margin-top: 170px;
+    margin-bottom: 0px;
+    text-align: center;
+}
+
+.shop-details {
+    color: rgba(14, 6, 6, 0.641);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    line-height: 30px;
+}
+
+.shop-image {
+    display: flex;
+    gap: 45px;
+    width: 30%;
+    margin: 0px auto;
+    align-items: center;
+    padding: 50px;
+    border-radius: 15px;
+    background-color: rgba(127, 255, 212, 0.351);
+}
+
+.img {
+    max-width: 200px;
+}
+
+.media-section {
+    max-width: 500px;
+    margin: 0px auto;
+}
+
+.media-title {
+    color: #272727;
+    font-size: 30px;
+    font-weight: 800;
+    margin-top: 130px;
+    margin-bottom: 0px;
+    text-align: center;
+}
+
+.media-details {
+    color: rgba(14, 6, 6, 0.641);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    line-height: 30px;
+}
+
+.midea-image {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 130px;
+}
+
+.m-img-a {
+    width: 270px;
+    padding-left: 24px;
+}
+
+.m-footer {
+    padding-left: 40px;
+    max-width: 1145px;
+    margin: 0px auto;
+    background-image: url("../images/Rectangle\ 9.png");
+}
+
+.m-foot {
+    max-width: 500px;
+    margin: 0px auto;
+}
+
+.inpt-a {
+    max-width: 600px;
+    margin: 0px auto;
+    padding-bottom: 100px;
+}
+
+.m-footer-title {
+    text-align: center;
+    padding-top: 100px;
+    color: #272727;
+    font-size: 30px;
+    font-weight: 800px;
+    margin-bottom: 0px;
+}
+
+.m-footer-details {
+    text-align: center;
+    margin-top: 10px;
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.inpt {
+    height: 40px;
+    width: 450px;
+    padding-right: 10px;
+}
+
+.f-btn {
+    color: #FFFFFF;
+    border-radius: 8px;
+    background: #E55473;
+    border: 0px;
+    padding: 14px 25px;
+}
+
+/* footer related styles */
+.footer {
+    margin-top: 125px;
+    background-color: #000000;
+}
+
+.f-start {
+    max-width: 600px;
+    margin: 0px auto;
+    padding: 100px 0px;
+}
+
+.footer-title {
+    color: #ffffff;
+    text-align: center;
+    font-size: 45px;
+    font-weight: 800;
+    margin-bottom: 0px;
+}
+
+.footer-details {
+    margin-top: 20px;
+    color: rgba(255, 255, 255, 0.90);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.f-finish {
+    color: rgba(255, 255, 255, 0.40);
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
 }
